@@ -1,3 +1,9 @@
+	<!--Footer-->
+	<footer>
+
+	</footer>
+	<!--Footer-->
+
 	<!-- End your project here-->
 
 	<!-- jQuery -->

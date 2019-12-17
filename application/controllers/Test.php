@@ -12,8 +12,8 @@ class Test extends CI_Controller {
 	
 	public function index()
 	{
-		$this->load->view('test/header');
-		$this->load->view('test/main');
-		$this->load->view('test/footer');
+		$this->load->view('templates/header');
+		$this->load->view('test/index');
+		$this->load->view('templates/footer');
 	}
 }
