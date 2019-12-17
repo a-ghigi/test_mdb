@@ -287,7 +287,81 @@
 			<!--Section: Contact-->
 			<section id="contact">
 
+				<!-- Heading -->
+				<h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
 
+				<!--Grid row-->
+				<div class="row">
+
+					<!--Grid column-->
+					<div class="col-lg-5 col-md-12">
+
+						<!-- Form contact -->
+						<form class="p-5 grey-text">
+							
+							<div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
+								<input type="text" id="form3" class="form-control form-control-sm">
+								<label for="form3">Your name</label>
+							</div>
+							<div class="md-form form-sm"> <i class="fas fa-envelope prefix"></i>
+								<input type="text" id="form2" class="form-control form-control-sm">
+								<label for="form2">Your email</label>
+							</div>
+							<div class="md-form form-sm"> <i class="fas fa-tag prefix"></i>
+								<input type="text" id="form3" class="form-control form-control-sm">
+								<label for="form3">Subject</label>
+							</div>
+							<div class="md-form form-sm"> <i class="fas fa-pencil-alt prefix"></i>
+								<textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4"></textarea>
+								<label for="form8">Your message</label>
+							</div>
+							<div class="text-center mt-4">
+								<button class="btn btn-primary">Send <i class="far fa-paper-planeml-1"></i></button>
+							</div>
+							
+						</form>
+						<!-- Form contact -->
+						
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-7 col-md-12">
+
+						<!--Grid row-->
+						<div class="row text-center">
+
+							<!--Grid column-->
+							<div class="col-lg-4 col-md-12 mb-3">
+								<p><i class="fas fa-map fa-1x mr-2 grey-text"></i>New York, NY 10012</p>
+							</div>
+							<!--Grid column-->
+
+							<!--Grid column-->
+							<div class="col-lg-4 col-md-6 mb-3">
+								<p><i class="fas fa-building fa-1x mr-2 grey-text"></i>Mon - Fri, 8:00-22:00</p>
+							</div>
+							<!--Grid column-->
+
+							<!--Grid column-->
+							<div class="col-lg-4 col-md-6 mb-3">
+								<p><i class="fas fa-phone fa-1x mr-2 grey-text"></i>+ 01 234 567 89</p>
+							</div>
+							<!--Grid column-->
+
+						</div>
+						<!--Grid row-->
+
+						<!--Google map-->
+						<div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.6773864597085!2d-73.999887684745!3d40.725117979330456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQzJzMwLjQiTiA3M8KwNTknNTEuNyJX!5e0!3m2!1sit!2sit!4v1576600123833!5m2!1sit!2sit" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+						</div>
+
+					</div>
+					<!--Grid column-->
+
+				</div>
+				<!--Grid row-->
 
 			</section>
 			<!--Section: Contact-->
