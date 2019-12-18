@@ -23,57 +23,50 @@
 	<!--Main Navigation-->
 	<header>
 
-	<!--Navbar-->
-	<nav class="navbar navbar-expand-lg navbar-dark primary-color double-nav">
+		<!--Navbar-->
+		<nav class="navbar navbar-expand-lg navbar-dark primary-color double-nav">
 
-		<!-- Navbar brand -->
-		<a class="navbar-brand" href="#">Navbar</a>
+			<!-- SideNav slide-out button -->
+			<div class="float-left">
+				<a href="#" data-activates="slide-out" class="button-collapse">
+					<i class="fas fa-bars"></i>
+				</a>
+			</div>
 
-		<!-- Collapse button -->
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<!-- Collapsible content -->
-		<div class="collapse navbar-collapse" id="basicExampleNav">
+			<!-- Breadcrumb-->
+			<div class="breadcrumb-dn mr-auto">
+				<p>Material Design for Bootstrap</p>
+			</div>
 
 			<!-- Links -->
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home
-			  <span class="sr-only">(current)</span>
-			</a>
+			<ul class="nav navbar-nav nav-flex-icons ml-auto">
+				<li class="nav-item">
+					<a class="nav-link">
+						<i class="fas fa-envelope"></i>
+						<span class="clearfix d-none d-sm-inline-block">Contact</span>
+					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Features</a>
+					<a class="nav-link">
+						<i class="fas fa-cog"></i>
+						<span class="clearfix d-none d-sm-inline-block">Settings</span>
+					</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Pricing</a>
-				</li>
-
-				<!-- Dropdown -->
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-					<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-user"></i>
+						<span class="clearfix d-none d-sm-inline-block">Account</span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
 						<a class="dropdown-item" href="#">Action</a>
 						<a class="dropdown-item" href="#">Another action</a>
 						<a class="dropdown-item" href="#">Something else here</a>
 					</div>
 				</li>
-
 			</ul>
-			<!-- Links -->
 
-			<form class="form-inline">
-				<div class="md-form my-0">
-					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-				</div>
-			</form>
-		</div>
-		<!-- Collapsible content -->
-
-	</nav>
-	<!--/.Navbar-->
+		</nav>
+		<!--/.Navbar-->
 
 		<!-- SideNav slide-out button -->
 		<!--a href="#" data-activates="slide-out" class="btn btn-primary p-3 button-collapse"><i class="fas fa-bars"></i></a-->
