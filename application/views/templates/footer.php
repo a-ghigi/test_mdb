@@ -1,8 +1,14 @@
-	<!--Footer-->
-	<footer>
+	<!-- Footer -->
+	<footer class="page-footer font-small blue">
+
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">© 2018 Copyright:
+			<a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+		</div>
+		<!-- Copyright -->
 
 	</footer>
-	<!--Footer-->
+	<!-- Footer -->
 
 	<!-- End your project here-->
 
@@ -14,8 +20,17 @@
 	<script type="text/javascript" src="<?php echo mdb_url(); ?>js/bootstrap.min.js"></script>
 	<!-- MDB core JavaScript -->
 	<script type="text/javascript" src="<?php echo mdb_url(); ?>js/mdb.min.js"></script>
-	<!-- Your custom scripts (optional) -->
-	<script type="text/javascript"></script>
+
+	<script>
+		$(document).ready(function() {
+			// SideNav Button Initialization
+			$(".button-collapse").sideNav();
+			
+			// SideNav Scrollbar Initialization
+			var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+			var ps = new PerfectScrollbar(sideNavScrollbar);
+		});
+	</script>
 
 </body>
 </html>
