@@ -2,11 +2,39 @@
 	<main>
 		<div class="container-fluid">
 
-			<!--Section: Modals-->
-			<section>
+		<!--Section: Modals-->
+		<section>
 
-			</section>
-			<!--Section: Modals-->
+			<!--Modal: modalConfirmDelete-->
+			<div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-sm modal-notify modal-danger" role="document">
+					<!--Content-->
+					<div class="modal-content text-center">
+						<!--Header-->
+						<div class="modal-header d-flex justify-content-center">
+							<p class="heading">Are you sure?</p>
+						</div>
+
+						<!--Body-->
+						<div class="modal-body">
+
+							<i class="fas fa-times fa-4x animated rotateIn"></i>
+
+						</div>
+
+						<!--Footer-->
+						<div class="modal-footer flex-center">
+							<a href="https://mdbootstrap.com/products/jquery-ui-kit/" class="btn btn-danger">Yes</a>
+							<a type="button" class="btn btn-outline-danger waves-effect" data-dismiss="modal">No</a>
+						</div>
+					</div>
+					<!--/.Content-->
+				</div>
+			</div>
+			<!--Modal: modalConfirmDelete-->
+
+		</section>
+		<!--Section: Modals-->
 
 			<!--Section: Main panel-->
 			<section class="card card-cascade narrower mb-5">
@@ -220,34 +248,34 @@
 				<!--Card-->
 				<div class="card card-cascade narrower">
 
-				<!--Card header-->
-				<div class="view view-cascade py-3 gradient-card-header info-color-dark mx-4 d-flex justify-content-between align-items-center">
+					<!--Card header-->
+					<div class="view view-cascade py-3 gradient-card-header info-color-dark mx-4 d-flex justify-content-between align-items-center">
 
-					<div>
-						<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
-							<i class="fas fa-th-large mt-0"></i>
-						</button>
-						<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
-							<i class="fas fa-columns mt-0"></i>
-						</button>
+						<div>
+							<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+								<i class="fas fa-th-large mt-0"></i>
+							</button>
+							<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+								<i class="fas fa-columns mt-0"></i>
+							</button>
+						</div>
+
+						<a href="" class="white-text mx-3">Table name</a>
+
+						<div>
+							<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+								<i class="fas fa-pencil-alt mt-0"></i>
+							</button>
+							<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2" data-toggle="modal" data-target="#modalConfirmDelete">
+								<i class="fas fa-times mt-0"></i>
+							</button>
+							<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+								<i class="fas fa-info-circle mt-0"></i>
+							</button>
+						</div>
+
 					</div>
-
-					<a href="" class="white-text mx-3">Table name</a>
-
-					<div>
-						<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
-							<i class="fas fa-pencil-alt mt-0"></i>
-						</button>
-						<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
-							<i class="fas fa-times mt-0"></i>
-						</button>
-						<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
-							<i class="fas fa-info-circle mt-0"></i>
-						</button>
-					</div>
-
-				</div>
-				<!--/Card header-->
+					<!--/Card header-->
 
 					<!--Card content-->
 					<div class="card-body">
@@ -257,7 +285,10 @@
 							<table class="table text-nowrap">
 								<thead>
 									<tr>
-										<th>#</th>
+										<th>
+											<input class="form-check-input" type="checkbox" id="checkbox">
+											<label for="checkbox" class="label-table form-check-label"></label>
+										</th>
 										<th>First column</th>
 										<th>Second column</th>
 										<th>Third column</th>
@@ -268,7 +299,10 @@
 								</thead>
 								<tbody>
 									<tr>
-										<th scope="row">1</th>
+										<th scope="row">
+											<input class="form-check-input" type="checkbox" id="checkbox1">
+											<label for="checkbox1" class="label-table form-check-label"></label>
+										</th>
 										<td>Lorem Ipsum</td>
 										<td>Lorem Ipsum</td>
 										<td>Lorem Ipsum</td>
@@ -277,7 +311,10 @@
 										<td>Lorem Ipsum</td>
 									</tr>
 									<tr>
-										<th scope="row">2</th>
+										<th scope="row">
+											<input class="form-check-input" type="checkbox" id="checkbox2">
+											<label for="checkbox2" class="label-table form-check-label"></label>
+										</th>
 										<td>Lorem Ipsum</td>
 										<td>Lorem Ipsum</td>
 										<td>Lorem Ipsum</td>
@@ -286,7 +323,10 @@
 										<td>Lorem Ipsum</td>
 									</tr>
 									<tr>
-										<th scope="row">3</th>
+										<th scope="row">
+											<input class="form-check-input" type="checkbox" id="checkbox3">
+											<label for="checkbox3" class="label-table form-check-label"></label>
+										</th>
 										<td>Lorem Ipsum</td>
 										<td>Lorem Ipsum</td>
 										<td>Lorem Ipsum</td>
@@ -298,6 +338,74 @@
 							</table>
 
 						</div>
+
+						<hr class="my-0">
+
+						<!--Bottom Table UI-->
+						<div class="d-flex justify-content-between">
+
+							<!--Name-->
+							<select class="mdb-select colorful-select dropdown-primary mt-2 d-hidden d-md-block">
+								<option value="" disabled>Rows number</option>
+								<option value="1" selected>10 rows</option>
+								<option value="2">25 rows</option>
+								<option value="3">50 rows</option>
+								<option value="4">100 rows</option>
+							</select>
+
+							<!--Pagination -->
+							<nav class="mt-4">
+								<ul class="pagination pagination-circle pg-blue mb-0">
+
+									<!--First-->
+									<li class="page-item disabled">
+										<a class="page-link">First</a>
+									</li>
+
+									<!--Arrow left-->
+									<li class="page-item disabled">
+										<a class="page-link" aria-label="Previous">
+											<span aria-hidden="true">&laquo;</span>
+											<span class="sr-only">Previous</span>
+										</a>
+									</li>
+
+									<!--Numbers-->
+									<li class="page-item active">
+										<a class="page-link">1</a>
+									</li>
+									<li class="page-item">
+										<a class="page-link">2</a>
+									</li>
+									<li class="page-item">
+										<a class="page-link">3</a>
+									</li>
+									<li class="page-item">
+										<a class="page-link">4</a>
+									</li>
+									<li class="page-item">
+										<a class="page-link">5</a>
+									</li>
+
+									<!--Arrow right-->
+									<li class="page-item">
+										<a class="page-link" aria-label="Next">
+											<span aria-hidden="true">&raquo;</span>
+											<span class="sr-only">Next</span>
+										</a>
+									</li>
+
+									<!--First-->
+									<li class="page-item">
+										<a class="page-link">Last</a>
+									</li>
+
+								</ul>
+							</nav>
+							<!--/Pagination -->
+
+						</div>
+						<!--Bottom Table UI-->
 
 					</div>
 					<!--/.Card content-->
