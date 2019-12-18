@@ -250,7 +250,54 @@
 				<!--/Card header-->
 
 					<!--Card content-->
-					<div class="card-body card-body-cascade">
+					<div class="card-body">
+					
+						<div class="table-responsive">
+
+							<table class="table text-nowrap">
+								<thead>
+									<tr>
+										<th>#</th>
+										<th>First column</th>
+										<th>Second column</th>
+										<th>Third column</th>
+										<th>Fourth column</th>
+										<th>Fifth column</th>
+										<th>Sixth column</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">1</th>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+										<td>Lorem Ipsum</td>
+									</tr>
+								</tbody>
+							</table>
+
+						</div>
 
 					</div>
 					<!--/.Card content-->
