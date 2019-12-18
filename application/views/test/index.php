@@ -65,6 +65,33 @@
 								<!--Grid column-->
 								<div class="col-md-6 mb-4 text-center">
 
+									<!--Summary-->
+									<p>Total sales:
+										<strong>2000$</strong>
+										<button type="button" class="btn btn-info btn-sm p-2" data-toggle="tooltip" data-placement="top" title="Total sales in the given period">
+											<i class="fas fa-question"></i>
+										</button>
+									</p>
+									<p>Average sales:
+										<strong>100$</strong>
+										<button type="button" class="btn btn-info btn-sm p-2" data-toggle="tooltip" data-placement="top" title="Average daily sales in the given period">
+											<i class="fas fa-question"></i>
+										</button>
+									</p>
+
+									<!--Change chart-->
+									<span class="min-chart my-4" id="chart-sales" data-percent="76">
+										<span class="percent"></span>
+									</span>
+									<h5>
+										<span class="badge green p-2">Change
+											<i class="fas fa-arrow-circle-up ml-1"></i>
+										</span>
+										<button type="button" class="btn btn-info btn-sm p-2" data-toggle="tooltip" data-placement="top" title="Percentage change compared to the same period in the past">
+											<i class="fas fa-question"></i>
+										</button>
+									</h5>
+
 								</div>
 								<!--Grid column-->
 
@@ -79,8 +106,14 @@
 
 					<!--Grid column-->
 					<div class="col-md-7">
-						
-						
+
+						<!--Panel Header-->
+						<div class="view view-cascade py-3 gradient-card-header info-color-dark mb-4">
+
+							<canvas id="lineChart"></canvas>
+
+						</div>
+						<!--/Card image-->
 
 					</div>
 					<!--Grid column-->
