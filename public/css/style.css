@@ -1,0 +1,12 @@
+.side-nav .logo-sn {
+     padding-bottom: 1rem;
+     padding-top: 1rem;
+}
+
+.side-nav .logo-sn img {
+     height: 38px;
+}
+
+body {
+	background-color: #eee;
+}

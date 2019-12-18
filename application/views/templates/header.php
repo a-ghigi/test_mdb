@@ -14,9 +14,9 @@
 	<!-- Material Design Bootstrap -->
 	<link rel="stylesheet" href="<?php echo mdb_url(); ?>css/mdb.min.css">
 	<!-- Your custom styles (optional) -->
-	<link rel="stylesheet" href="<?php echo mdb_url(); ?>css/style.css">
+	<link rel="stylesheet" href="<?php echo public_url(); ?>css/style.css">
 </head>
-<body class="fixed-sn">
+<body class="fixed-sn light-blue-skin">
 
 	<!-- Start your project here-->  
 
@@ -24,7 +24,7 @@
 	<header>
 
 		<!--Navbar-->
-		<nav class="navbar navbar-expand-lg navbar-dark primary-color double-nav">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar double-nav">
 
 			<!-- SideNav slide-out button -->
 			<div class="float-left">
@@ -72,25 +72,17 @@
 		<!--a href="#" data-activates="slide-out" class="btn btn-primary p-3 button-collapse"><i class="fas fa-bars"></i></a-->
 
 		<!-- Sidebar navigation -->
-		<div id="slide-out" class="side-nav fixed">
+		<div id="slide-out" class="side-nav fixed sn-bg-2">
 			<ul class="custom-scrollbar">
 				<!-- Logo -->
-				<li>
-					<div class="logo-wrapper waves-light">
-						<a href="#"><img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" class="img-fluid flex-center"></a>
+				<li class="logo-sn waves-effect">
+					<div class=" text-center">
+						<a href="#" class="pl-0">
+							<img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" class="">
+						</a>
 					</div>
 				</li>
 				<!--/. Logo -->
-				<!--Social-->
-				<li>
-					<ul class="social">
-						<li><a href="#" class="icons-sm fb-ic"><i class="fab fa-facebook-f"> </i></a></li>
-						<li><a href="#" class="icons-sm pin-ic"><i class="fab fa-pinterest"> </i></a></li>
-						<li><a href="#" class="icons-sm gplus-ic"><i class="fab fa-google-plus-g"> </i></a></li>
-						<li><a href="#" class="icons-sm tw-ic"><i class="fab fa-twitter"> </i></a></li>
-					</ul>
-				</li>
-				<!--/Social-->
 				<!--Search Form-->
 				<li>
 					<form class="search-form" role="search">
