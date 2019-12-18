@@ -29,6 +29,12 @@
 			// SideNav Scrollbar Initialization
 			var sideNavScrollbar = document.querySelector('.custom-scrollbar');
 			var ps = new PerfectScrollbar(sideNavScrollbar);
+		
+			// Material Select Initialization
+			$('.mdb-select').materialSelect();
+
+			// Data Picker Initialization
+			$('.datepicker').pickadate();
 		});
 	</script>
 
