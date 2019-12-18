@@ -127,8 +127,139 @@
 			<!--Section: Table-->
 			<section class="mb-5">
 
-			</section>
-			<!--Section: Table-->
+				<!--Top Table UI-->
+				<div class="card p-2 mb-5">
+
+					<!--Grid row-->
+					<div class="row">
+
+						<!--Grid column-->
+						<div class="col-lg-3 col-md-12">
+
+							<!--Name-->
+							<select class="mdb-select colorful-select dropdown-primary mx-2">
+								<option value="" disabled selected>Bulk actions</option>
+								<option value="1">Delate</option>
+								<option value="2">Export</option>
+								<option value="3">Change segment</option>
+							</select>
+
+						</div>
+						<!--Grid column-->
+
+						<!--Grid column-->
+						<div class="col-lg-3 col-md-6">
+
+							<!--Blue select-->
+							<select class="mdb-select colorful-select dropdown-primary mx-2">
+								<option value="" disabled selected>Show only</option>
+								<option value="1">All
+									<span> (2000)</span>
+								</option>
+								<option value="2">Never opened
+									<span> (200)</span>
+								</option>
+								<option value="3">Opened but unanswered
+									<span> (1800)</span>
+								</option>
+								<option value="4">Answered
+									<span> (200)</span>
+								</option>
+								<option value="5">Unsunscribed
+									<span> (50)</span>
+								</option>
+							</select>
+							<!--/Blue select-->
+
+						</div>
+						<!--Grid column-->
+
+						<!--Grid column-->
+						<div class="col-lg-3 col-md-6">
+
+							<!--Blue select-->
+							<select class="mdb-select colorful-select dropdown-primary mx-2">
+								<option value="" disabled selected>Filter segments</option>
+								<option value="1">Contacts in no segments
+									<span> (100)</span>
+								</option>
+								<option value="1">Segment 1
+									<span> (2000)</span>
+								</option>
+								<option value="2">Segment 2
+									<span> (1000)</span>
+								</option>
+								<option value="3">Segment 3
+									<span> (4000)</span>
+								</option>
+							</select>
+							<!--/Blue select-->
+
+						</div>
+						<!--Grid column-->
+
+						<!--Grid column-->
+						<div class="col-lg-3 col-md-6">
+
+							<form class="form-inline mt-2 ml-2">
+								<input class="form-control my-0 py-0" type="text" placeholder="Search" style="max-width: 150px;">
+								<button class="btn btn-sm btn-info ml-2 px-2">
+									<i class="fas fa-search"></i>
+								</button>
+							</form>
+
+						</div>
+						<!--Grid column-->
+
+					</div>
+					<!--Grid row-->
+
+				</div>
+				<!--Top Table UI-->
+
+				<!--Card-->
+				<div class="card card-cascade narrower">
+
+				<!--Card header-->
+				<div class="view view-cascade py-3 gradient-card-header info-color-dark mx-4 d-flex justify-content-between align-items-center">
+
+					<div>
+						<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+							<i class="fas fa-th-large mt-0"></i>
+						</button>
+						<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+							<i class="fas fa-columns mt-0"></i>
+						</button>
+					</div>
+
+					<a href="" class="white-text mx-3">Table name</a>
+
+					<div>
+						<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+							<i class="fas fa-pencil-alt mt-0"></i>
+						</button>
+						<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+							<i class="fas fa-times mt-0"></i>
+						</button>
+						<button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+							<i class="fas fa-info-circle mt-0"></i>
+						</button>
+					</div>
+
+				</div>
+				<!--/Card header-->
+
+					<!--Card content-->
+					<div class="card-body card-body-cascade">
+
+					</div>
+					<!--/.Card content-->
+
+				</div>
+				<!--/.Card-->
+
+			  </section>
+			  <!--Section: Table-->
 
 			<!--Section: Accordion-->
 			<section class="mb-5">
