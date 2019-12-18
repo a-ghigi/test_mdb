@@ -34,7 +34,7 @@
 			</div>
 
 			<!-- Breadcrumb-->
-			<div class="breadcrumb-dn mr-auto">
+			<div class="breadcrumb-dn mr-auto white-text">
 				<p>Material Design for Bootstrap</p>
 			</div>
 

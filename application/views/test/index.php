@@ -480,7 +480,7 @@
 							</div>
 
 							<!-- Heading -->
-							<a id="folder-1" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+							<a id="folder-2" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
 								<h5 class="mt-1 mb-0">
 							  <span>Folder 2</span>
 							  <i class="fas fa-angle-down rotate-icon"></i>
@@ -517,7 +517,7 @@
 							</div>
 
 							<!-- Heading -->
-							<a id="folder-1" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+							<a id="folder-3" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
 								<h5 class="mt-1 mb-0">
 							  <span>Folder 3</span>
 							  <i class="fas fa-angle-down rotate-icon"></i>

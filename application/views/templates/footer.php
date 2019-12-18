@@ -91,6 +91,22 @@
 				}
 			});
 		});
+
+		$('#folder-1').click(function() {
+			toastr.error("Folder 1 has been clicked!", "Folder 1", {
+				"positionClass": "md-toast-top-right",
+			});
+		});
+		
+		$('#folder-2').click(function() {
+			// make it not dissappear
+			toastr.info("Folder 2 has been clicked!", "Folder 2", );
+		});
+		
+		$('#folder-3').click(function() {
+			// make it not dissappear
+			toastr.warning("Folder 3 has been clicked!", "Folder 3", );
+		});
 	</script>
 
 </body>
