@@ -14,6 +14,7 @@
 
 	<!-- jQuery -->
 	<script type="text/javascript" src="<?php echo mdb_url(); ?>js/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
 	<!-- Bootstrap tooltips -->
 	<script type="text/javascript" src="<?php echo mdb_url(); ?>js/popper.min.js"></script>
 	<!-- Bootstrap core JavaScript -->
